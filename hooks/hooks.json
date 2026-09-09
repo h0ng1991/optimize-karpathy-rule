@@ -1,0 +1,16 @@
+{
+  "description": "Injects a condensed rigor reminder before every user prompt",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/inject-rigor.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

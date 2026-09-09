@@ -1,0 +1,20 @@
+{
+  "name": "karpathy-rule",
+  "owner": {
+    "name": "h0ng1991"
+  },
+  "description": "Rigor guidelines for Claude Code",
+  "plugins": [
+    {
+      "name": "optimize-karpathy-rule",
+      "source": "./",
+      "description": "Nine rigor guidelines, with a hook that injects a condensed reminder every turn",
+      "version": "1.0.0",
+      "author": {
+        "name": "h0ng1991"
+      },
+      "keywords": ["guidelines", "rigor", "anti-hallucination", "anti-sycophancy", "best-practices"],
+      "category": "workflow"
+    }
+  ]
+}
