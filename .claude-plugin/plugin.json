@@ -1,8 +1,8 @@
 {
   "name": "optimize-karpathy-rule",
   "displayName": "Rigor Guidelines",
-  "version": "1.0.0",
-  "description": "Nine rigor guidelines for AI-assisted work: zero fabrication, labeled confidence, verify instead of recall, evidence-only revision, ask before acting, minimal implementation, traceable change scope, criteria before verification, self-check before concluding. Ships with a hook that injects a condensed reminder every turn.",
+  "version": "1.1.0",
+  "description": "Nine rigor guidelines for AI-assisted work: zero fabrication, labeled confidence with key sources, verify instead of recall, evidence-only revision, ask before acting, minimal implementation, traceable change scope, criteria before verification, self-check before concluding. Ships with a hook that injects a condensed reminder every turn.",
   "author": {
     "name": "h0ng1991"
   },

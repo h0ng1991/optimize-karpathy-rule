@@ -9,7 +9,7 @@
       "name": "optimize-karpathy-rule",
       "source": "./",
       "description": "Nine rigor guidelines, with a hook that injects a condensed reminder every turn",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "h0ng1991"
       },
