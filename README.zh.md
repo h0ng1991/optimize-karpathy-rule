@@ -67,7 +67,7 @@ curl https://raw.githubusercontent.com/h0ng1991/optimize-karpathy-rule/main/CLAU
 | 完整规则正文 | `CLAUDE.md` **和** `skills/optimize-karpathy-rule/SKILL.md`（两者正文需保持一致） |
 | 关掉每轮注入，只留 skill | 删掉 `.claude-plugin/plugin.json` 里的 `"hooks"` 字段 |
 
-`hooks/reminder.md` 每一轮都会进上下文，所以必须短——目前约 2.9k 字符。完整规则放 `CLAUDE.md`，别把长文塞进注入文本。
+`hooks/reminder.md` 每一轮都会进上下文，所以必须短——目前约 3.1k 字符。完整规则放 `CLAUDE.md`，别把长文塞进注入文本。
 
 ## 工作原理
 

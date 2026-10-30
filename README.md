@@ -67,7 +67,7 @@ Put the contents of [CLAUDE.md](CLAUDE.md) into `~/.claude/CLAUDE.md` to apply t
 | The full rule text | `CLAUDE.md` **and** `skills/optimize-karpathy-rule/SKILL.md` (keep the bodies identical) |
 | Disable per-turn injection, keep the skill | Remove the `"hooks"` field from `.claude-plugin/plugin.json` |
 
-`hooks/reminder.md` enters the context window on every single turn, so keep it short — it currently runs about 2.9k characters. The full ruleset belongs in `CLAUDE.md`; do not move it into the injected text.
+`hooks/reminder.md` enters the context window on every single turn, so keep it short — it currently runs about 3.1k characters. The full ruleset belongs in `CLAUDE.md`; do not move it into the injected text.
 
 ## How it works
 
